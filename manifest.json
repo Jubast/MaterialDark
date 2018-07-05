@@ -1,0 +1,51 @@
+{
+	// Material dark colors
+	// topbar: #303030
+	// darker: #292929
+	// dark_light: #383838
+	// buttons_foreground_color: #c3c3c3
+	// buttons_used_color: #989898
+	// seperator: #252525
+	// highlight: #338DD6
+	// selected: #363636
+
+	// selected_background: #338DD6
+	// input_foreground: #303030
+	// popup_input_background: #424242
+	// popup_background: #212121
+	// #130402
+	// #595959
+	// Future help: https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/theme
+	// TODO: When searching its still white af.. mybe a bug
+
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "material_dark",
+  "theme": {
+    "colors": {
+      // Toolbar background
+      "accentcolor": "#383838",
+      // Icon colors, Back, Refresh, etc.
+      "icons": "#989898",
+      // Toolbar selected color
+      "toolbar": "#424242",
+      "toolbar_field": "#4f4f4f",
+      "toolbar_field_focus": "#5c5c5c",
+      "toolbar_field_text_focus": "#130402",
+      "toolbar_field_border_focus": "#252525",
+      //"toolbar_vertical_separator": "#595959",
+      "textcolor": "#ABABAB",
+      "toolbar_text": "#ABABAB",
+      // Searchbar background
+      "popup": "#424242",
+      "popup_text": "#ABABAB",
+      "popup_highlight": "#f2f2f2",
+      "popup_highlight_text": "#ABABAB",
+      // Tab top line
+      "tab_line": "#989898",
+      //"tab_background_separator": "red",
+      "tab_loading": "#989898",
+      "bookmark_text": "#c1c1bd"
+    }
+  }
+}
